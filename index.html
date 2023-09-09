@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Site Js Chuteiras</title>
+</head>
+<body>
+    <header>
+        <div">
+            <img class="logo" src="img/logo.png" alt="">
+        </div>
+
+        <ul">
+            <li class="navegar">
+                <a href="index.html">Home</a>
+                <a href="nike/index.html">Nike</a>
+                <a href="puma/index.html">Puma</a>
+                <a href="mizuno/index.html">Mizuno</a>
+                <a href="adidas/index.html">Adidas</a>
+                <a href="society/index.html">Society</a>
+            </li>
+        </ul>
+    </header>
+    
+    <section>
+        <h1 class="titulo">Lancamentos</h1>
+        <div class="lancamento">
+            <div class="lancamento_produtos">
+                <img src="img/chuteira1.jpg" alt="">
+                <h2>Puma Futuro Ultimate FG Ultra Z 1.3 Teazer</h2>
+                <p><span>De 350,00</span>por R$ 300,00</p>
+                <a href="#" class="ver-fotos" data-Images="img/chuteira1.jpg, img/chuteira2.jpg, img/chuteira3.jpg, img/chuteira4.jpg, img/chuteira5.jpg">Ver fotos</a>
+            </div>
+
+            <div class="lancamento_produtos">
+                <img src="img/chuteira68.jpg" alt="">
+                <h2>Adidas Original Predator Mutator 20.1 Low FG</h2>
+                <p><span>De R$ 350,00</span> por R$ 350,00</p>
+                <a href="#" class="ver-fotos" data-images="img/chuteira68.jpg, img/chuteira67.jpg, img/chuteira66.jpg, img/chuteira69.jpg, img/chuteira70.jpg">Ver fotos</a>
+            </div>
+
+            <div class="lancamento_produtos">
+                <img src="img/chuteira31.jpg" alt="">
+                <h2>Nike Mercurial Zoom Vapor XV Elite FG</h2>
+                <p><span>De R$ 340,00</span>por R$ 290,00</p>
+                <a href="#" class="ver-fotos" data-images="img/chuteira31.jpg, img/chuteira32.jpg, img/chuteira33.jpg, img/chuteira34.jpg, img/chuteira35.jpg">Ver fotos</a>
+            </div>
+
+            <div class="lancamento_produtos">
+                <img src="img/chuteira7.jpg" alt="">
+                <h2>PUMA888 Original Ultra 1.4 FG Instinct</h2>
+                <p><span>De R$ 350,00 </span>por R$ 300,00</p>
+                <a href="#" class="ver-fotos" data-images="img/chuteira7.jpg, img/chuteira8.jpg, img/chuteira9.jpg, img/chuteira10.jpg, img/chuteira6.jpg">Ver fotos</a>
+            </div>
+        </div>
+
+        <div id="imageViewer">
+            <div id="imageContainer">
+                <img id="currentImage" src="" alt="">
+            </div>
+            <button id="fecharViewer">Fechar</button>
+            <button id="anteriorImage">Anterior</button>
+            <button id="proximoImage">Próximo</button>
+        </div>
+    </section>
+
+    <section>
+        <h1 class="titulo">Todos os Produtos</h1>
+        <div class="todos_produtos">
+            <div class="produtos">
+                <img src="img/puma1.jpg" alt="">
+                <h2>Puma Future com campo FG de 1,3 teaser</h2>
+                <p>R$ 270,00</p>
+                <a href="#" class="ver-fotos" data-images="img/puma1.jpg, img/puma2.jpg, img/puma3.jpg, img/puma4.jpg, img/puma5.jpg">Ver fotos</a>
+            </div>
+
+            <div class="produtos">
+                <img src="img/chuteira11.jpg" alt="">
+                <h2>Puma Future Star Segunda Geração</h2>
+                <p>R$ 270,00</p>
+                <a href="#" class="ver-fotos" data-images="img/chuteira11.jpg, img/chuteira12.jpg, img/chuteira13.jpg, img/chuteira14.jpg, img/chuteira15.jpg">Ver fotos</a>
+            </div>
+
+            <div class="produtos">
+                <img src="img/chuteira16.jpg" alt="">
+                <h2>Puma Futuro z 2.3 fg Botas</h2>
+                <p>R$ 280,00</p>
+                <a href="#" class="ver-fotos" data-images="img/chuteira16.jpg, img/chuteira17.jpg, img/chuteira18.jpg, img/chuteira19.jpg, img/chuteira20.jpg">Ver fotos</a>
+            </div>
+
+            <div class="produtos">
+                <img src="img/chuteira21.jpg" alt="">
+                <h2>Neymar Puma688 Ultra Ultimate FG/AG</h2>
+                <p>R$ 280,00</p>
+                <a href="#" class="ver-fotos" data-images="img/chuteira21.jpg, img/chuteira22.jpg, img/chuteira23.jpg, img/chuteira24.jpg, img/chuteira25.jpg">Ver fotos</a>
+            </div>
+        </div>
+
+        <div class="todos_produtos">
+            <div class="produtos">
+                <img src="img/chuteira26.jpg" alt="">
+                <h2>Puma Futuro Ultimate FG Essence all knitted</h2>
+                <p>R$ 270,00</p>
+                <a href="#" class="ver-fotos" data-images="img/chuteira26.jpg, img/chuteira27.jpg, img/chuteira28.jpg, img/chuteira29.jpg, img/chuteira30.jpg">Ver fotos</a>
+            </div>
+
+            <div class="produtos">
+                <img src="img/chuteira36.jpg" alt="">
+                <h2>Nike Phantom GT2 De Malha</h2>
+                <p>R$ 260,00</p>
+                <a href="#" class="ver-fotos" data-images="img/chuteira36.jpg, img/chuteira37.jpg, img/chuteira38.jpg, img/chuteira39.jpg, img/chuteira40.jpg">Ver fotos</a>
+            </div>
+
+            <div class="produtos">
+                <img src="img/chuteira41.jpg" alt="">
+                <h2> Nike0120 Phantom GT2 Elite FG Alta</h2>
+                <p>R$ 260,00</p>
+                <a href="#" class="ver-fotos" data-images="img/chuteira41.jpg, img/chuteira42.jpg, img/chuteira43.jpg, img/chuteira44.jpg, img/chuteira45.jpg">Ver fotos</a>
+            </div>
+
+            <div class="produtos">
+                <img src="img/chuteira46.jpg" alt="">
+                <h2>Nike Phantom Fantasma GX Low-Top</h2>
+                <p>R$ 270,00</p>
+                <a href="#" class="ver-fotos" data-images="img/chuteira46.jpg, img/chuteira47.jpg, img/chuteira48.jpg, img/chuteira49.jpg, img/chuteira50.jpg">Ver fotos</a>
+            </div>
+        </div>
+
+        <div class="todos_produtos">
+            <div class="produtos">
+                <img src="img/chuteira51.jpg" alt="">
+                <h2>Nike Mercurial FG Elite Field Nike943 Vapor</h2>
+                <p>R$ 280,00</p>
+                <a href="#" class="ver-fotos" data-images="img/chuteira51.jpg, img/chuteira52.jpg, img/chuteira53.jpg, img/chuteira54.jpg, img/chuteira55.jpg">Ver fotos</a>
+            </div>
+
+            <div class="produtos">
+                <img src="img/chuteira56.jpg" alt="">
+                <h2>Nike Mercurial Vapor XIV Elite SG PRO</h2>
+                <p>R$ 280,00</p>
+                <a href="#" class="ver-fotos" data-images="img/chuteira56.jpg, img/chuteira57.jpg, img/chuteira58.jpg, img/chuteira59.jpg, img/chuteira60.jpg">Ver fotos</a>
+            </div>
+            <div class="produtos">
+                <img src="img/chuteira61.jpg" alt="">
+                <h2>Nike Tiempo Legenda 9 Elite FG</h2>
+                <p>R$ 260,00</p>
+                <a href="#" class="ver-fotos" data-images="img/chuteira61.jpg, img/chuteira62.jpg, img/chuteira63.jpg, img/chuteira64.jpg, img/chuteira65.jpg">Ver fotos</a>
+            </div>
+
+            <div class="produtos">
+                <img src="img/chuteira71.jpg" alt="">
+                <h2>Adidas X Série King of Speed</h2>
+                <p>R$ 290,00</p>
+                <a href="#" class="ver-fotos" data-images="img/chuteira71.jpg, img/chuteira72.jpg, img/chuteira73.jpg, img/chuteira74.jpg, img/chuteira75.jpg">Ver fotos</a>
+            </div>
+        </div>
+
+        <div class="todos_produtos">
+            <div class="produtos">
+                <img src="img/chuteira76.jpg" alt="">
+                <h2>Adidas X Speedflow Rede Européia FG Spike</h2>
+                <p>R$ 270,00</p>
+                <a href="#" class="ver-fotos" data-images="img/chuteira76.jpg, img/chuteira77.jpg, img/chuteira78.jpg, img/chuteira79.jpg, img/chuteira80.jpg">Ver fotos</a>
+            </div>
+
+            <div class="produtos">
+                <img src="img/chuteira81.jpg" alt="">
+                <h2>Adidas Ready To Wear x Speedflow Series FG</h2>
+                <p>R$ 270,00</p>
+                <a href="#" class="ver-fotos" data-images="img/chuteira81.jpg, img/chuteira82.jpg, img/chuteira83.jpg, img/chuteira84.jpg, img/chuteira85.jpg">Ver fotos</a>
+            </div>
+
+            <div class="produtos">
+                <img src="img/chuteira86.jpg" alt="">
+                <h2>AdidasX Speedflow FG Spike Crown Boots</h2>
+                <p>R$ 260,00</p>
+                <a href="#" class="ver-fotos" data-images="img/chuteira86.jpg, img/chuteira87.jpg, img/chuteira88.jpg, img/chuteira89.jpg, img/chuteira90.jpg">Ver fotos</a>
+            </div>
+
+            <div class="produtos">
+                <img src="img/chuteira91.jpg" alt="">
+                <h2>Adidas Boots Lases Predator Freak Football</h2>
+                <p>R$ 280,00</p>
+                <a href="#" class="ver-fotos" data-images="img/chuteira91.jpg, img/chuteira92.jpg, img/chuteira93.jpg, img/chuteira94.jpg, img/chuteira95.jpg">Ver fotos</a>
+            </div>
+        </div>
+
+        <div class="todos_produtos">
+            <div class="produtos">
+                <img src="img/chuteira96.jpg" alt="">
+                <h2>Tênis Adidas FG X Speedportal</h2>
+                <p>R$ 260,00</p>
+                <a href="#" class="ver-fotos" data-images="img/chuteira96.jpg, img/chuteira97.jpg, img/chuteira98.jpg, img/chuteira99.jpg, img/chuteira100.jpg">Ver fotos</a>
+            </div>
+
+            <div class="produtos">
+                <img src="img/chuteira101.jpg" alt="">
+                <h2> Mizuno de Alta Qualidade</h2>
+                <p>R$ 280,00</p>
+                <a href="#" class="ver-fotos" data-images="img/chuteira101.jpg, img/chuteira102.jpg, img/chuteira103.jpg, img/chuteira104.jpg, img/chuteira105.jpg">Ver fotos</a>
+            </div>
+
+            <div class="produtos">
+                <img src="img/chuteira106.jpg" alt="">
+                <h2>Mizuno MORELIA NEO III japonês MD PRO FG</h2>
+                <p>R$ 260,00</p>
+                <a href="#" class="ver-fotos" data-images="img/chuteira106.jpg, img/chuteira107.jpg, img/chuteira108.jpg, img/chuteira109.jpg, img/chuteira110.jpg">Ver fotos</a>
+            </div>
+
+            <div class="produtos">
+                <img src="img/chuteira111.jpg" alt="">
+                <h2>Mizuno MORELIANEO2FG Nissan FG</h2>
+                <p>R$ 260,00</p>
+                <a href="#" class="ver-fotos" data-images="img/chuteira111.jpg, img/chuteira112.jpg, img/chuteira113.jpg, img/chuteira114.jpg, img/chuteira115.jpg">Ver fotos</a>
+            </div>
+        </div>
+
+        <div class="todos_produtos">
+            <div class="produtos">
+                <img src="img/chuteira-society1.jpg" alt="">
+                <h2>Puma Future Ultimate AG Essence all knitted</h2>
+                <p>R$ 280,00</p>
+                <a href="#" class="ver-fotos" data-images="img/chuteira-society1.jpg, img/chuteira-society2.jpg, img/chuteira-society3.jpg, img/chuteira-society4.jpg, img/chuteira-society5.jpg">Ver fotos</a>
+            </div>
+
+            <div class="produtos">
+                <img src="img/chuteira-society6.jpg" alt="">
+                <h2>Puma356 Future Z 1.3 Instinct TF Socyte</h2>
+                <p>R$ 270,00</p>
+                <a href="#" class="ver-fotos" data-images="img/chuteira-society6.jpg, img/chuteira-society7.jpg, img/chuteira-society8.jpg, img/chuteira-society9.jpg, img/chuteira-society10.jpg">Ver fotos</a>
+            </div>
+
+            <div class="produtos">
+                <img src="img/chuteira-society11.jpg" alt="">
+                <h2>Chuteira Society Puma Future Z 1.1AG</h2>
+                <p>R$ 260,00</p>
+                <a href="#" class="ver-fotos" data-images="img/chuteira-society11.jpg, img/chuteira-society12.jpg, img/chuteira-society13.jpg, img/chuteira-society14.jpg, img/chuteira-society15.jpg">Ver fotos</a>
+            </div>
+
+            <div class="produtos">
+                <img src="img/chuteira-society16.jpg" alt="">
+                <h2>Puma Futuro Z 1.2 pro F Elite Vapor</h2>
+                <p>R$ 260,00</p>
+                <a href="#" class="ver-fotos" data-images="img/chuteira-society16.jpg, img/chuteira-society17.jpg, img/chuteira-society18.jpg, img/chuteira-society19.jpg, img/chuteira-society20.jpg">Ver fotos</a>
+            </div>
+        </div>
+
+        <div class="todos_produtos">
+            <div class="produtos">
+                <img src="img/chuteira-society21.jpg" alt="">
+                <h2>Nike Phantom Society GX</h2>
+                <p>R$ 270,00</p>
+                <a href="#" class="ver-fotos" data-images="img/chuteira-society21.jpg, img/chuteira-society22.jpg, img/chuteira-society23.jpg, img/chuteira-society24.jpg, img/chuteira-society25.jpg">Ver fotos</a>
+            </div>
+
+            <div class="produtos">
+                <img src="img/chuteira-society26.jpg" alt="">
+                <h2>Nike Air Zoom Vapor Mercúrio XV 15 Elite</h2>
+                <p>R$ 260,00</p>
+                <a href="#" class="ver-fotos" data-images="img/chuteira-society26.jpg, img/chuteira-society27.jpg, img/chuteira-society28.jpg, img/chuteira-society29.jpg, img/chuteira-society30.jpg">Ver fotos</a>
+            </div>
+
+            <div class="produtos">
+                <img src="img/chuteira-society31.jpg" alt="">
+                <h2>Chuteiras Society Nike Clube Fantasma GT2</h2>
+                <p>R$ 250,00</p>
+                <a href="#" class="ver-fotos" data-images="img/chuteira-society31.jpg, img/chuteira-society32.jpg, img/chuteira-society33.jpg, img/chuteira-society34.jpg, img/chuteira-society35.jpg">Ver fotos</a>
+            </div>
+
+            <div class="produtos">
+                <img src="img/chuteira-society36.jpg" alt="">
+                <h2>Nike Assassin Almofada De Ar De Corte Baixo</h2>
+                <p>R$ 270,00</p>
+                <a href="#" class="ver-fotos" data-images="img/chuteira-society36.jpg, img/chuteira-society37.jpg, img/chuteira-society38.jpg, img/chuteira-society39.jpg, img/chuteira-society40.jpg">Ver fotos</a>
+            </div>
+        </div>
+
+        <div class="todos_produtos">
+            <div class="produtos">
+                <img src="img/chuteira-society41.jpg" alt="">
+                <h2>Nike Phantom Elite Shock Series Low-Top</h2>
+                <p>R$ 280,00</p>
+                <a href="#" class="ver-fotos" data-images="img/chuteira-society41.jpg, img/chuteira-society42.jpg, img/chuteira-society43.jpg, img/chuteira-society44.jpg, img/chuteira-society45.jpg">Ver fotos</a>
+            </div>
+
+            <div class="produtos">
+                <img src="img/chuteira-society46.jpg" alt="">
+                <h2>Adidas X SPEEDFLOW Low Cut Homens</h2>
+                <p>R$ 260,00</p>
+                <a href="#" class="ver-fotos" data-images="img/chuteira-society46.jpg, img/chuteira-society47.jpg, img/chuteira-society48.jpg, img/chuteira-society49.jpg, img/chuteira-society50.jpg">Ver fotos</a>
+            </div>
+
+            <div class="produtos">
+                <img src="img/chuteira-society51.jpg" alt="">
+                <h2>Adidas Predator Edge.3 TF Socyte women</h2>
+                <p>R$ 270,00</p>
+                <a href="#" class="ver-fotos" data-images="img/chuteira-society51.jpg, img/chuteira-society52.jpg, img/chuteira-society53.jpg, img/chuteira-society54.jpg, img/chuteira-society55.jpg">Ver fotos</a>
+            </div>
+
+            <div class="produtos">
+                <img src="img/chuteira-society56.jpg" alt="">
+                <h2>Adidas Speedportal X Speedportal</h2>
+                <p>R$ 250,00</p>
+                <a href="#" class="ver-fotos" data-images="img/chuteira-society56.jpg, img/chuteira-society57.jpg, img/chuteira-society58.jpg, img/chuteira-society59.jpg, img/chuteira-society60.jpg">Ver fotos</a>
+            </div>
+        </div>
+
+        <div class="todos_produtos">
+            <div class="produtos">
+                <img src="img/chuteira-society61.jpg" alt="">
+                <h2>Mizuno Morelia Neo Sala TF Society</h2>
+                <p>R$ 270,00</p>
+                <a href="#" class="ver-fotos" data-images="img/chuteira-society61.jpg, img/chuteira-society62.jpg, img/chuteira-society63.jpg, img/chuteira-society64.jpg, img/chuteira-society65.jpg">Ver fotos</a>
+            </div>
+
+            <div class="produtos">
+                <img src="img/chuteira-society67.jpg" alt="">
+                <h2>Mizuno Morelia Society Ii As _ Tf</h2>
+                <p>R$ 260,00</p>
+                <a href="#" class="ver-fotos" data-images="img/chuteira-society67.jpg, img/chuteira-society68.jpg, img/chuteira-society69.jpg, img/chuteira-society70.jpg, img/chuteira-society66.jpg">Ver fotos</a>
+            </div>
+        </div>
+
+        <div id="imageViewer">
+            <div id="imageContainer">
+                <img id="currentImage" src="" alt="">
+            </div>
+            <button id="fecharViewer">Fechar</button>
+            <button id="anteriorImage">Anterior</button>
+            <button id="proximoImage">Próximo</button>
+        </div>
+    </section>
+
+    <footer>
+          <ul">
+            <li class="navegar">
+                <a href="index.html">Home</a>
+                <a href="nike/index.html">Nike</a>
+                <a href="puma/index.html">Puma</a>
+                <a href="mizuno/index.html">Mizuno</a>
+                <a href="adidas/index.html">Adidas</a>
+                <a href="society/index.html">Society</a>
+            </li>
+        </ul>
+
+        <div>
+            <p>Js chuteiras qualidade é aqui, então não perca tempo e agaranta logo a sua.</p>
+            <p>Aceitamos cartoes de credito e debito e pix.</p>
+            <P>Parcelamos em até 3x sem juros.</P>
+            <hr>
+            <div class="r_social">
+                <a href="https://instagram.com/jschuteiras2023?utm_source=qr&igshid=MzNlNGNkZWQ4Mg==" target="_blank"><img src="img/instagran.avif" alt=""></a>
+                <a href="https://www.facebook.com/profile.php?id=61551025103232" target="_blank"><img src="img/facebook.avif" alt=""></a>
+                <p>Siga nossas redes sociais, e fique por dentro das novidades.</p>
+            </div>
+        </div>
+    </footer> 
+    
+    <script src="js/script.js"></script>
+
+</body>
+</html>
